@@ -9,7 +9,7 @@
   
   inputs.src-NimNN-master.flake = false;
   inputs.src-NimNN-master.ref   = "refs/heads/master";
-  inputs.src-NimNN-master.owner = "xcodz-dot";
+  inputs.src-NimNN-master.owner = "amaank404";
   inputs.src-NimNN-master.repo  = "NimNN";
   inputs.src-NimNN-master.type  = "github";
   
@@ -24,7 +24,7 @@
   inputs."argparse".owner = "nim-nix-pkgs";
   inputs."argparse".ref   = "master";
   inputs."argparse".repo  = "argparse";
-  inputs."argparse".dir   = "v3_0_0";
+  inputs."argparse".dir   = "v4_0_0";
   inputs."argparse".type  = "github";
   inputs."argparse".inputs.nixpkgs.follows = "nixpkgs";
   inputs."argparse".inputs.flakeNimbleLib.follows = "flakeNimbleLib";
